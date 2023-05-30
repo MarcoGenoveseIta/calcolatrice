@@ -31,42 +31,6 @@ function aggiungiSimbolo(event) {
 
 
 
-function esempioSwitch(età){
-    switch(true){
-        case età<16:
-            console.log("No patente")
-            break;
-        case età<18:
-            console.log("No alcool")
-            break
-        default:
-            console.log("Maggiorenne")
-            break
-    }
-}
-
-// esempioSwitch(15)
-
-function esempioSwitchFrutta(frutto){
-    switch(frutto){
-        case 'ananas':
-        case 'mela':
-            console.log("Non mi piace")
-            break
-        case 'arancia':
-        case 'mango':
-            console.log("Mi piace")
-            break
-        default:
-            console.log("Boh")
-            break;
-
-    }
-}
-
-// esempioSwitchFrutta('banana')
-
-
 
 
 

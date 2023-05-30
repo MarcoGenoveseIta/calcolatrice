@@ -21,8 +21,10 @@ html, body {
     overflow: hidden; 
     display: grid;
     grid-template-rows: 110px;
-    -webkit-box-shadow: 0px 0px 200px 10px #fff; 
     box-shadow: 0px 0px 200px 10px #fff;
+    border: 1px solid black;
+
+
 }
 
 #contenitore-schermo{
